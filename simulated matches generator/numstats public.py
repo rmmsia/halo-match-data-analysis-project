@@ -92,5 +92,5 @@ for rowNum in range(3, 102):
 print()
 print('Data generation complete!')
 
-stop = timeit.default_timer()
-print('Time taken: ', stop - start)
+stopTime = timeit.default_timer()
+print('Time taken: ', stopTime - startTime)
